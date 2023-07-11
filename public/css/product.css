@@ -1,0 +1,31 @@
+.form {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  max-width: 100%;
+  gap: 10px;
+  align-items: flex-start;
+}
+.form-input {
+  width: 90%;
+  border: 1px solid #f5d313;
+  height: 1.5rem;
+  border-radius: 5px;
+  outline: none;
+  padding: 0 8px;
+}
+
+.form-button {
+  color: rgb(91, 11, 165);
+  font-weight: 600;
+  padding: 4px 7px;
+  border: 2px solid rgb(91, 11, 165);
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.form-button:hover {
+  background-color: rgb(91, 11, 165);
+  color: white;
+}
